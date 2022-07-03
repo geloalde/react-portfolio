@@ -1,0 +1,14 @@
+h1 {
+    color: darkgray;
+    text-align: left;
+    text-indent: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins';
+    
+    
+}
+
+.whitesmokebg {
+    background-color: whitesmoke;
+}
