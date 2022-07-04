@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import AppCards from './cards/AppCards';
 import "./cards/AppCards.css";
+import AppCarousel from './carousel/AppCarousel';
 
 
 
@@ -21,6 +22,7 @@ root.render(
   <React.StrictMode>
     <AppHeader />
     <AppCards />
+    <AppCarousel />
     <App />
   </React.StrictMode>
 );

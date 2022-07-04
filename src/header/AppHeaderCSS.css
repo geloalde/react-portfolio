@@ -12,3 +12,11 @@ h1 {
 .whitesmokebg {
     background-color: whitesmoke;
 }
+
+h4 {
+    padding-top: 6px;
+}
+
+.indentme5 {
+    text-indent: 5px;
+}

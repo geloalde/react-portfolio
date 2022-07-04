@@ -4,8 +4,7 @@ import React from 'react';
 import {
     CardGroup,
     Button,
-    Row,
-    Col,
+    
   } from 'react-bootstrap';
 
 
@@ -76,6 +75,7 @@ export default function AppCards() {
 
 
 </CardGroup>
+<p className="poppins f10">In this demo, I used the Card/CardGroup in order to display my Passions.</p>
 <br>
 </br>
 
