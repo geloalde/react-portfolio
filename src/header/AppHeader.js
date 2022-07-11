@@ -14,16 +14,16 @@ export default function AppHeader() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="https://www.youtube.com/watch?v=kOnde5c7OG8">Link</Nav.Link>
             <NavDropdown title="Team Members Repositories" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://github.com/geloalde
+              <NavDropdown.Item className="soft2" href="https://github.com/geloalde
 ">Gelo Alde</NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/amcaj
+              <NavDropdown.Item className="soft2" href="https://github.com/amcaj
 ">
                 Angela Cajudo
               </NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/evet8
+              <NavDropdown.Item className="soft2" href="https://github.com/evet8
                       ">Ernest Torrejos</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item className="soft2" href="#action/3.4">
                 What now?
               </NavDropdown.Item>
             </NavDropdown>

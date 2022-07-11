@@ -16,9 +16,11 @@ export default function AppCards() {
   return (
     
     <div className="container text-center poppins mt-4">
-        <h2>Team 1</h2>
+        <h2>Team 2GE</h2>
         <br></br>
-        <p> Team Name Explanation</p>
+        <p className="soft f16"> Our team name is derived from our nicknames — Gelo, Gela, Ernest.
+        <br></br> We aim to create quality websites and programs forged from our teamwork and camaraderie.</p>
+        
         <br></br>
         <br></br>
         
@@ -46,7 +48,7 @@ export default function AppCards() {
       <Card.Title>Gela Cajudo</Card.Title>
       <Card.Text className="soft">
         Aspiring web developer and webtoon artist.
-       <br></br>Hwaiting one step at a time!
+       <br></br>Waiting one step at a time!
       </Card.Text>
       
     </Card.Body>
@@ -64,7 +66,7 @@ export default function AppCards() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://www.facebook.com/ernestvincent.torrejos/">Check Social Media!</Button>
+    <Button className="f10" href="https://www.facebook.com/ernestvincent.torrejos/">Check Social Media</Button>
     </Card.Footer>
   </Card>
 
