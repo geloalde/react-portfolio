@@ -7,7 +7,7 @@ export default function AppCarousel() {
 return (
 	<div class="container" style={{ display: 'block', width: 1000, padding: 30 }}>
         
-	<h4 class="text-center poppins">My Achievements and Work</h4><br></br>
+	<h2 class="text-center poppins">Our Achievements and Work</h2><br></br>
 	<Carousel>
 		<Carousel.Item interval={1500}>
 		<img
@@ -41,7 +41,10 @@ src={'/pic3.png'}
         
 
 	</Carousel>
-    <p className='f10 poppins text-center'>In this carousel, Local Pictures should be saved at the public folder in order to be loaded by the app.</p>
+	<br></br>
+    <p className='poppins text-center f10'>Gelo's EZGAME Shop, an all around Gaming Site.</p>
+	<p className='poppins text-center f10'>Ernest's Deals on Wheels, for all your auto needs.</p>
+	<p className='poppins text-center f10'>Angela's Fragnatica, a fragrance shop for all occassions.</p>
 	</div>
 );
 }

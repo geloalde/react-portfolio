@@ -6,6 +6,10 @@
   font-family: 'Poppins';
 }
 
+.black {
+  color: black;
+}
+
 .soft {
   font-size: 12px;
   font-weight: 200;
@@ -28,7 +32,7 @@
 
 .App-header {
   background-color: whitesmoke;
-  min-height: 50vh;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;

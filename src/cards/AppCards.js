@@ -16,21 +16,27 @@ export default function AppCards() {
   return (
     
     <div className="container text-center poppins mt-4">
-        <h2>Gelo's Passion for 2022!</h2>
+        <h2>Team 1</h2>
         <br></br>
+        <p> Team Name Explanation</p>
+        <br></br>
+        <br></br>
+        
 
+        <h2>Team Members</h2>
 <CardGroup>
   <Card className="cardMargin">
-    <Card.Img variant="top" src="https://townsquare.media/site/295/files/2020/07/80s.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89" />
+    <Card.Img variant="top" src={'/gelo.jpg'} />
     <Card.Body>
-      <Card.Title>80s Music</Card.Title>
+      <Card.Title>Gelo Alde</Card.Title>
       <Card.Text className="soft">
-        Listening to the golden era of music gives my soul and mind a leap to another dimension!
+        Stay at home Tito who loves to play FPS games! 
+        <br></br>Bike in the morning, Code in the evening.
       </Card.Text>
       
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://www.youtube.com/watch?v=kOnde5c7OG8&list=RDMMkOnde5c7OG8&start_radio=1">Check this youtube!</Button>
+    <Button className="f10" href="https://facebook.com/geloalde">Check Social Media</Button>
     </Card.Footer>
   </Card>
   
@@ -39,12 +45,12 @@ export default function AppCards() {
     <Card.Body>
       <Card.Title>Cycling</Card.Title>
       <Card.Text className="soft">
-        One of my newest passion this year! I want to improve my health and explore new wealth!
+       
       </Card.Text>
       
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://shopee.ph/">Check Shopee for accessories!</Button>
+    <Button className="f10" href="https://shopee.ph/">Check Social Media</Button>
     </Card.Footer>
   </Card>
   <Card className="cardMargin">
@@ -52,30 +58,19 @@ export default function AppCards() {
     <Card.Body>
       <Card.Title>PC Gaming</Card.Title>
       <Card.Text className="soft">
-        One of my earliest passion in life! from Famcom, Sega, Arcade and now! PC! PC Gaming is Life!
+        
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://store.steampowered.com/">Check NEW Games in Steam!</Button>
+    <Button className="f10" href="https://store.steampowered.com/">Check Social Media!</Button>
     </Card.Footer>
   </Card>
 
-  <Card className="cardMargin">
-    <Card.Img variant="top" src="https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/04/iStock-969305052-1024x683.jpg?w=1155&h=2969" />
-    <Card.Body>
-      <Card.Title>PC Gaming</Card.Title>
-      <Card.Text className="soft">
-        Stress relievers? Yeah. Sometimes.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-    <Button className="f10" href="https://store.steampowered.com/">Check On-Sale pet foods!</Button>
-    </Card.Footer>
-  </Card>
+  
 
 
 </CardGroup>
-<p className="poppins f10">In this demo, I used the Card/CardGroup in order to display my Passions.</p>
+
 <br>
 </br>
 
