@@ -16,9 +16,9 @@ export default function AppCards() {
   return (
     
     <div className="container text-center poppins mt-4">
-        <h2>Team 1</h2>
+        <h2>2GE</h2>
         <br></br>
-        <p> Team Name Explanation</p>
+        <p> 2G for Gelo and Gela, and E for Ernest. 2G also stands for the 2nd generation (2G technology) and the 2nd grouping of our class</p>
         <br></br>
         <br></br>
         
@@ -54,7 +54,7 @@ export default function AppCards() {
     </Card.Footer>
   </Card>
   <Card className="cardMargin">
-    <Card.Img variant="top" src={'/Ernest.jpg'} />
+    <Card.Img variant="top" src={''} />
     <Card.Body>
       <Card.Title>Ernest Vincent Torrejos</Card.Title>
       <Card.Text className="soft">
