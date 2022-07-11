@@ -54,15 +54,16 @@ export default function AppCards() {
     </Card.Footer>
   </Card>
   <Card className="cardMargin">
-    <Card.Img variant="top" src="https://www.pcworld.com/wp-content/uploads/2021/11/IMG_20190615_214330-2.jpg?quality=50&strip=all&w=1024" />
+    <Card.Img variant="top" src={'/Ernest.jpg'} />
     <Card.Body>
-      <Card.Title>PC Gaming</Card.Title>
+      <Card.Title>Ernest Vincent Torrejos</Card.Title>
       <Card.Text className="soft">
-        
+        Father to one daughter, husband to one wife, only son, and brother to three elder sisters.
+        <br></br>BPO employee by day, coding student by night.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://store.steampowered.com/">Check Social Media!</Button>
+    <Button className="f10" href="https://www.facebook.com/ernestvincent.torrejos/">Check Social Media!</Button>
     </Card.Footer>
   </Card>
 
