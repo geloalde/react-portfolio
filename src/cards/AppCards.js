@@ -16,9 +16,9 @@ export default function AppCards() {
   return (
     
     <div className="container text-center poppins mt-4">
-        <h2>2GE</h2>
+        <h2>Team 1</h2>
         <br></br>
-        <p> 2G for Gelo and Gela, and E for Ernest. 2G also stands for the 2nd generation (2G technology) and the 2nd grouping of our class</p>
+        <p> Team Name Explanation</p>
         <br></br>
         <br></br>
         
@@ -41,20 +41,21 @@ export default function AppCards() {
   </Card>
   
   <Card className="cardMargin">
-    <Card.Img variant="top" src="https://images.immediate.co.uk/production/volatile/sites/21/2020/11/Two-road-cyclists-in-drops-winter_road_female-a2b8cdd.jpg?quality=90&resize=620%2C413" />
+    <Card.Img variant="top" src={'/gela.jpg'} />
     <Card.Body>
-      <Card.Title>Cycling</Card.Title>
+      <Card.Title>Gela Cajudo</Card.Title>
       <Card.Text className="soft">
-       
+        Aspiring web developer and webtoon artist.
+       <br></br>Hwaiting one step at a time!
       </Card.Text>
       
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://shopee.ph/">Check Social Media</Button>
+    <Button className="f10" href="https://facebook.com/gelamvc">Check Social Media</Button>
     </Card.Footer>
   </Card>
   <Card className="cardMargin">
-    <Card.Img variant="top" src={''} />
+    <Card.Img variant="top" src={'/Ernest.jpg'} />
     <Card.Body>
       <Card.Title>Ernest Vincent Torrejos</Card.Title>
       <Card.Text className="soft">
