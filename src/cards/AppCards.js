@@ -54,7 +54,7 @@ export default function AppCards() {
     </Card.Footer>
   </Card>
   <Card className="cardMargin">
-    <Card.Img variant="top" src={''} />
+    <Card.Img variant="top" src={'/public/Ernest.jpg'} />
     <Card.Body>
       <Card.Title>Ernest Vincent Torrejos</Card.Title>
       <Card.Text className="soft">
