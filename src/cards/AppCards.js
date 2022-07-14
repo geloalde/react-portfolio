@@ -38,7 +38,7 @@ export default function AppCards() {
       
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://facebook.com/geloalde">Check Social Media</Button>
+    <Button className="f10" href="https://facebook.com/geloalde">Check Personal Portfolio</Button>
     </Card.Footer>
   </Card>
   
@@ -53,7 +53,7 @@ export default function AppCards() {
       
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://facebook.com/gelamvc">Check Social Media</Button>
+    <Button className="f10" href="https://facebook.com/gelamvc">Check Personal Portfolio</Button>
     </Card.Footer>
   </Card>
   <Card className="cardMargin">
@@ -66,7 +66,7 @@ export default function AppCards() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Button className="f10" href="https://www.facebook.com/ernestvincent.torrejos/">Check Social Media</Button>
+    <Button className="f10" href="https://www.facebook.com/ernestvincent.torrejos/">Check Personal Portfolio</Button>
     </Card.Footer>
   </Card>
 
